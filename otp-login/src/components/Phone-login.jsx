@@ -23,7 +23,7 @@ const PhoneOtpLogin = () => {
   };
 
   const onOtpSubmit = (otp) => {
-    console.log(otp)
+    console.log("Login successful", otp)
   }
   return (
     <div>
